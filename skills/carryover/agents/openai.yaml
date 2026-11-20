@@ -1,0 +1,6 @@
+interface:
+  display_name: "Carryover"
+  short_description: "Prepare a context handoff for a new agent session"
+
+policy:
+  allow_implicit_invocation: false

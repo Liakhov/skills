@@ -4,15 +4,17 @@ My personal agent skills.
 
 ## Skills
 
+- [carryover](skills/carryover/SKILL.md): Prepare a context handoff for a new agent session. Explicit invocation only.
 - [reframe](skills/reframe/SKILL.md): Re-explain the previous response in clear technical English. Explicit invocation only.
 
 ## Install
 
 ```sh
+npx skills add Liakhov/skills --skill carryover
 npx skills add Liakhov/skills --skill reframe
 ```
 
-Use `$reframe` in Codex or `/reframe` in Claude Code.
+Invoke a skill with `$carryover` or `$reframe` in Codex, or `/carryover` or `/reframe` in Claude Code.
 
 ## Add a skill
 
